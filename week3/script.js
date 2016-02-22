@@ -1,16 +1,12 @@
 var submit = document.getElementById("submit");
 submit.onclick = function(){
-    var playmusic = document.getElementById("playmusic").value;
-    var gender = document.getElementById("gender").value;
-    var age= document.getElementById("age").value;
-    var ethnicity = document.getElementById("ethnicity").value;
-    var zipcode = document.getElementById("zipcode").value;
-    var musicgenre = document.getElementById("musicgenre").value;
-    var money = document.getElementById("money").value;
-    var website = document.getElementById("website").value;
-    var listen = document. getElementById("listen").value;
-    console.log(playmusic,gender,age,ethnicity,zipcode,musicgenre,money,website,listen);
+   var responses = [];
+    var responseElements = document.getElementByClassName("response");
+
+    for (var i = 0; i< responseElements.lengh; i++)
+        responseElements.push(responseElements[i].value);
+
     var message = document.getElementById("message");
-    message.innerHTML = "Hello" + name +" ,from " + musicgenre + ", welcome to my Music Servey Workshop.";
+    message.innerHTML = "Hello" + responses[0] +" ,listen " + response[1] + ", gender"+response[2]+",age"+responses[3]+",ethnicity"+responses[4]+",zip code"+responses[5]+",favorite music"+responses[6]+",spend money"+responses[7]+", free music"+responses[8]+",how often";
 
 };
