@@ -7,7 +7,7 @@ myFuction();
 var bar = function(){
     document.write("world.");
 }
-var();
+bar();
 console.log(typeof bar);
 var greet = function(name, greeting){
 var text = greeting +","+name;
