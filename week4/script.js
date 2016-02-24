@@ -14,3 +14,5 @@ var text = greeting +","+name;
 document.write(text);
 }
 greet();
+greet("Jenny","Hello");
+greet("Jerry ","Hi");
