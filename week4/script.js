@@ -16,3 +16,8 @@ var messages = ["Yes, abosulate",
                ];
 
 
+.circle{
+    background-color:blue;
+
+}
+
