@@ -22,7 +22,7 @@ var answers = ["Yes, abosulately.",
 
     }
 
-    $(#bigball).click(){
+    $(#outcircle).click(){
       $('.shake').effect("shake",{
         times:8,
         direction:"up"
