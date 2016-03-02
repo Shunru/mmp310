@@ -8,16 +8,18 @@
     <body>
         <h1> MMP310 Week4 JavaScript functions</h1>
         <p>Ask the magic 8 ball a yes or no question, and it will give you an answer!</p>
-        <input class="response" id="question" type="text" placeholder="Enter your question here.">
+        <input type="text" placeholder="Enter your question here.">
 
-            <div id="container">
-                <div id="theball">
-                    <div id="circle">
-                    </div>
-                </div>
-
+            <div id="sha">
+                <div id="bigball" class="shake"></div>
+                <div id="smallball" class="shake"></div>
+                <div id="eight" class="shake">8</div>
             </div>
 
+            <div id="res"></div>
+
+        <button id="answerButton">Answer me</button>
+         <p id="answerContainer"></p>
 
         <script src="script.js"></script>
     </body>
