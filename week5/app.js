@@ -2,7 +2,7 @@ function submitAnswers(){
 	var total = 6;
 	var score = 0;
 
-	//Get User Input
+	//input
 	var q1 = document.forms["quizForm"]["q1"].value;
 	var q2 = document.forms["quizForm"]["q2"].value;
 	var q3 = document.forms["quizForm"]["q3"].value;
@@ -10,7 +10,7 @@ function submitAnswers(){
 	var q5 = document.forms["quizForm"]["q5"].value;
 	var q6 = document.forms["quizForm"]["q6"].value;
 
-	//Validation
+	//loop
 	for(i = 1; i <= total;i++){
 		if(eval('q'+i) == null || eval('q'+i) == ''){
 			alert('You Missed Question ' +i);
