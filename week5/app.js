@@ -3,12 +3,12 @@ function submitAnswers(){
 	var score = 0;
 
 	//input
-	var q1 = document.forms["quizForm"]["q1"].value;
-	var q2 = document.forms["quizForm"]["q2"].value;
-	var q3 = document.forms["quizForm"]["q3"].value;
-	var q4 = document.forms["quizForm"]["q4"].value;
-	var q5 = document.forms["quizForm"]["q5"].value;
-	var q6 = document.forms["quizForm"]["q6"].value;
+	var question1 = document.forms["quizForm"]["q1"].value;
+	var question2 = document.forms["quizForm"]["q2"].value;
+	var question3 = document.forms["quizForm"]["q3"].value;
+	var question4 = document.forms["quizForm"]["q4"].value;
+	var question5 = document.forms["quizForm"]["q5"].value;
+	var question6 = document.forms["quizForm"]["q6"].value;
 
 	//loop
 	for(i = 1; i <= total;i++){
