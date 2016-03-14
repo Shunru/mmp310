@@ -39,5 +39,7 @@ button{
 	text-align:center;
 	font-size:18px;
 	padding:20px;
+    list-style-type: none;
+
 
 }
