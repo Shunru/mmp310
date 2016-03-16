@@ -4,8 +4,9 @@ function toaddlist(){
     var newItem = document.createElement("li")
     newItem.appendChild(text)
     document.getElementById("toAdd").appendChild(newItem)
+
 }
 
-funcion todeletelist(){
-    document.getElementById("toDelete").appendChild(newItem)
+todeletelist.onclick = function(){
+    list.innerHTML ='';
 }
