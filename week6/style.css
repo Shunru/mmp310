@@ -4,7 +4,14 @@ body{
     text-align: center;
 }
 
+<<<<<<< HEAD
 #h1{
+=======
+
+
+h1{
+    font-family:fantasy;
+>>>>>>> origin/gh-pages
 	margin: 0 auto;
 	width:300px;
 	color:#708090;
@@ -39,6 +46,7 @@ body{
 }
 
 #toAdd{
+    font-family:fantasy;
 	text-align:center;
 	font-size:20px;
 	padding:20px;
