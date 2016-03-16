@@ -8,7 +8,3 @@ function toaddlist(){
 
 }
 
-todeletelist.onclick = function(){
-    list.innerHTML ='';
-}
-
