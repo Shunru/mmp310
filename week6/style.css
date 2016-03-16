@@ -4,15 +4,9 @@ body{
     text-align: center;
 }
 
-<<<<<<< HEAD
-#h1{
-=======
-
-
 h1{
     font-family:fantasy;
->>>>>>> origin/gh-pages
-	margin: 0 auto;
+    margin: 0 auto;
 	width:300px;
 	color:#708090;
 	font-family:fantasy;
@@ -52,6 +46,5 @@ h1{
 	padding:20px;
     list-style-type:none;
     font-family:fantasy;
-
 
 }
