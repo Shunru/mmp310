@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function toaddlist(){
     var task = document.getElementById("task")
     var text = document.createTextNode(task.value)
