@@ -5,3 +5,7 @@ function toaddlist(){
     newItem.appendChild(text)
     document.getElementById("toAdd").appendChild(newItem)
 }
+
+funcion todeletelist(){
+    document.getElementById("toDelete").appendChild(newItem)
+}
