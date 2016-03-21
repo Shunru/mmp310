@@ -5,7 +5,8 @@ function makePassword(){
         console.log(i);
         
         var c = Math.floor(Math.random()*chars.length);
-        password += chars.chartAt(c)
+        password += chars.charAt(c)
     }
-    return password;
+    document.getElementById("result").innerHTML = password;
+  
 }
