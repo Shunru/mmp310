@@ -4,7 +4,7 @@ function makePassword(){
     for (var i =0; i <10; i++){
         console.log(i);
         
-        var c = Math.floor(Math.random()*chars.length +1);
+        var c = Math.floor(Math.random()*chars.length);
         password += chars.chartAt(c)
     }
     return password;
