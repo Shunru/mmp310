@@ -7,7 +7,7 @@ function randomPassword(length){
     if(key === "Yes"){
         chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890{};&*%#$@!/?<>'";
     }
-    pass ="";
+    var pass ="";
     for (var x =0; x <length; x++){
         i = Math.floor(Math.random()*chars.length);
         pass += chars.charAt(i);
@@ -15,7 +15,7 @@ function randomPassword(length){
     }
     
     
-    function formSubmit(){
+    function generate(){
         passform.passbox.value= randomPassword(passform.length.value);
     }
   
