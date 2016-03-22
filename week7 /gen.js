@@ -8,7 +8,7 @@ function randomPassword(length){
         chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890{};&*%#$@!/?<>'";
     }
     pass ="";
-    for (var i =0; i <length; i++){
+    for (var x =0; x <length; x++){
         i = Math.floor(Math.random()*chars.length);
         pass += chars.charAt(i);
         
