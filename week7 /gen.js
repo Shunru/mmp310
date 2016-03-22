@@ -4,7 +4,7 @@ function randomPassword(length){
     
     var chars="abcdefghijklmnopqrstuvwxyzABCEEFGHIJKLMNOPFQRSTUVWXYZ0123456789";
     
-    if(key === "ON"){
+    if(key === "Yes"){
         chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890{};&*%#$@!/?<>'";
     }
     pass ="";
@@ -13,7 +13,7 @@ function randomPassword(length){
         pass += chars.charAt(i);
         
     }
-    document.getElementById("passwd").innerHTML = password;
+    
     
     function formSubmit(){
         passform.passbox.value= randomPassword(passform.length.value);
