@@ -7,22 +7,34 @@
     <body>
      <div id="container">
          <h1>Password generator</h1>
-         <label id="username">User Name</label>
-         <input id="name" type="text">
          <br>
-         <lable id="charaters">Number of characters</lable>
-        <input id="number" type="text">
-         <br>
+         <form name="passform">
+         <p>Number of Characters
+             <input type="number" name="length">
+             <br>
+            
+            <p>keyword
+               <select id="key">
+                   <option>ON</option>
+                   <option>OFF</option>
+               </select>
+                </p>
+                <br>
+                
+            <p>Password
+                <input class="input" name="passbox" id="passwd"
+                type="text" tabindex ="1">
+             </p>
+             <br>
+             
+             <p>
+             <input type="button" value="Generate" onClick ="formSubmit()" tabindex ="2">
+             <input type="reset" value="clear" tabindex = "3">
+         </p>
+         </form>
          
-         <lable id="keyword">Keyword</lable>
-         <input id="word" type="text">
-         <br>
-         <button onclick="makePassword()">Create Password</button>
-        
-         <p id ="result"></p>
-      
-       
-    </div>
+         
+        </div>
         <script src="gen.js"></script> 
     </body>
 </html>
