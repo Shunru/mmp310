@@ -13,7 +13,7 @@ function randomPassword(length){
         pass += chars.charAt(i);
         
     }
-    document.getElementById("result").innerHTML = password;
+    document.getElementById("passwd").innerHTML = password;
     
     function formSubmit(){
         passform.passbox.value= randomPassword(passform.length.value);
