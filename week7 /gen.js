@@ -4,21 +4,21 @@ function randomPassword(length){
     
     var chars="abcdefghijklmnopqrstuvwxyzABCEEFGHIJKLMNOPFQRSTUVWXYZ0123456789";
     
-    if(key === "Yes"){
+    if(spc === "Yes"){
         chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890{};&*%#$@!/?<>'";
     }
     
-    var pass ="";
+    var password ="";
     for (var x =0; x <length; x++){
         i = Math.floor(Math.random()*chars.length);
         pass += chars.charAt(i);
         
     }
-    document.getElementById("result").innerHTML = password;
+    document.getElementById("result").innerHTML = passwd;
 }
     
     
-    function dormSubmit(){
+    function formSubmit(){
         passform.passbox.value= randomPassword(passform.length.value);
     }
   
