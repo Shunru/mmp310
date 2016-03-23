@@ -1,10 +1,11 @@
 body{
     background-color:#cob3c9;
-    font-family:fantasy;
+    font-family:monospace;
     font-text:center;
 }
 
 #container{
+    align-content: center;
     background-color:mistyrose;
     width:600px;
     margin:0 auto;
