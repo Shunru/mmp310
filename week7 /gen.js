@@ -14,11 +14,11 @@ function randomPassword(length){
         password += chars.charAt(i);
         
     }
-    document.getElementById("p").innerHTML = passwd;
+    document.getElementById("result").innerHTML = passwd;
 }
     
     
-    function formSubmit(){
+   onclcik .formSubmit=function (){
         passform.passbox.value= randomPassword(passform.length.value);
     }
   
