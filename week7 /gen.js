@@ -11,16 +11,18 @@ function randomPassword(length){
     var pass ="";
     for (var i =0; i <length; i++){
         i = Math.floor(Math.random()*chars.length);
-        passwd += chars.charAt(i);
+        pass += chars.charAt(i);
         console.log(i);
     }
-    
-    document.getElementById("result").innerHTML = passwd;
+    return pass;
+    document.getElementById("result").innerHTML = pass;
 
     
 }
 
 function.formSubmit(){
         passform.passbox.value= randomPassword(passform.length.value);
+    
+    return false;
     }
   
