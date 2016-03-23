@@ -11,7 +11,7 @@ function randomPassword(length){
     var password ="";
     for (var x =0; x <length; x++){
         i = Math.floor(Math.random()*chars.length);
-        pass += chars.charAt(i);
+        password += chars.charAt(i);
         
     }
     document.getElementById("result").innerHTML = passwd;
