@@ -12,7 +12,7 @@ function randomPassword(length){
     for (var i =0; i <length; i++){
         i = Math.floor(Math.random()*chars.length);
         passwd += chars.charAt(i);
-        
+        console.log(i);
     }
     
     document.getElementById("result").innerHTML = passwd;
