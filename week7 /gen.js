@@ -8,13 +8,13 @@ function randomPassword(length){
         chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890{};&*%#$@!/?<>'";
     }
     
-    var password ="";
+    var pass ="";
     for (var x =0; x <length; x++){
         i = Math.floor(Math.random()*chars.length);
         password += chars.charAt(i);
         
     }
-    document.getElementById("result").innerHTML = passwd;
+    document.getElementById("p").innerHTML = passwd;
 }
     
     
