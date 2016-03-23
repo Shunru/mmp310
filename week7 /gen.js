@@ -9,15 +9,17 @@ function randomPassword(length){
     }
     
     var pass ="";
-    for (var x =0; x <length; x++){
+    for (var i =0; i <length; i++){
         i = Math.floor(Math.random()*chars.length);
-        password += chars.charAt(i);
+        passwd += chars.charAt(i);
         
     }
+    
     document.getElementById("result").innerHTML = passwd;
+
+    
 }
-    
-    
+
 function.formSubmit(){
         passform.passbox.value= randomPassword(passform.length.value);
     }
