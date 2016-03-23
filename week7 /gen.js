@@ -18,7 +18,7 @@ function randomPassword(length){
 }
     
     
-   onclcik .formSubmit=function (){
+function.formSubmit(){
         passform.passbox.value= randomPassword(passform.length.value);
     }
   
