@@ -25,5 +25,5 @@ function myFunction(){
 }
 
   function myFunction(){
-      myform.passbox.value = randomPassword(passform.length.value);
+      myform.passbox.value = randomPassword(myform.length.value);
   }
