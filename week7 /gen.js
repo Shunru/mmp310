@@ -14,7 +14,7 @@ function randomPassword(length){
         pass += chars.charAt(i);
         console.log(i);
     }
-    return pass;
+  
     document.getElementById("result").innerHTML = pass;
 
     
@@ -24,4 +24,6 @@ function myFunction(){
     document.getElementById("myForm").submit();
 }
 
-  
+  function myFunction(){
+      myform.passbox.value = randomPassword(passform.length.value);
+  }
