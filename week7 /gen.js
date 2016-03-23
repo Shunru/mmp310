@@ -20,8 +20,11 @@ function randomPassword(length){
     
 }
 
-function.formSubmit(){
-        passform.passbox.value= randomPassword(passform.length.value);
+function myFunction(){
+    document.getElementById("myForm").generate();
+}
+function.myFunction(){
+        myform.passbox.value= randomPassword(myform.length.value);
     
 
     }
