@@ -21,7 +21,7 @@ function randomPassword(length){
 }
 
 function myFunction(){
-    document.getElementById("myForm").generate();
+    document.getElementById("myForm").submit();
 }
 
   
