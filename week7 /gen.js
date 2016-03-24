@@ -27,6 +27,5 @@ function myFunction(){
 
 document.getElementById("result").innerHTML = pass;
  
-    function pass(){
-        document.getElementById("result").innerHtml = pass();
+   
     }
