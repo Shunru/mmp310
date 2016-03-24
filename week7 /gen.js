@@ -1,4 +1,4 @@
-function randomPassword(length){
+function myFunction(length){
     var password="";
     var spcval = document.getElementById("specialkey");
     var spc = spcval.value;
@@ -11,9 +11,11 @@ function randomPassword(length){
     
    
     for (var i =0; i <length; i++){
+        console.log(i);
+        
         var c = Math.floor(Math.random()*chars.length);
         pass += chars.charAt(i);
-        console.log(i);
+        
     }
   
 }
