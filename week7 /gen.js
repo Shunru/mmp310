@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 function makePassword(){
     var password = "";
     var chars="abcdefghijklmnopqrstuvwxyzABCEEFGHIJKLMNOPFQRSTUVWXYZ0123456789!@#$%^&*+)}|:";
     for (var i =0; i <10; i++){
-=======
+
 function randomPassword(length){
     
     var spcval = document.getElementById("specialkey");
@@ -17,7 +17,7 @@ function randomPassword(length){
     
    var password = "";
     for (var i =0; i <length; i++){
->>>>>>> origin/gh-pages
+
         console.log(i);
         
         var c = Math.floor(Math.random()*chars.length);
