@@ -1,10 +1,12 @@
 body{
+    text-align:center;
     background-color:#cob3c9;
-    font-family:fantasy;
+    font-family:monospace;
+    font-size:20px;
 }
 
 #container{
-    background-color:bisque;
+    background-color:thistle;
     width:600px;
     margin:0 auto;
     height:600px;
