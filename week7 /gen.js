@@ -20,8 +20,9 @@ function randomPassword(length){
   function onclick(){
       myform.passbox.value = randomPassword(myform.length.value);
   }
+    
+document.getElementById("result").innerHTML = pass.join("");
 
-document.getElementById("result").innerHTML = pass();
  
    
     
