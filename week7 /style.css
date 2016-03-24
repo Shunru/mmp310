@@ -1,5 +1,5 @@
 body{
-<<<<<<< HEAD
+
     text-align:center;
     background-color:#cob3c9;
     font-family:monospace;
@@ -8,7 +8,7 @@ body{
 
 #container{
     background-color:thistle;
-=======
+
     background-color:lavender;
     font-family:monospace;
     font-text:center;
@@ -19,7 +19,6 @@ body{
 #container{
     align-content: center;
     background-color:rosybrown;
->>>>>>> origin/gh-pages
     width:600px;
     margin:0 auto;
     height:600px;
