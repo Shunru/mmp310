@@ -1,5 +1,5 @@
-function myFunction(length){
-    var password="";
+function randomPassword(length){
+    
     var spcval = document.getElementById("specialkey");
     var spc = spcval.value;
     
@@ -9,12 +9,12 @@ function myFunction(length){
         chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890{};&*%#$@!/?<>'";
     }
     
-   
+   var password = "";
     for (var i =0; i <length; i++){
         console.log(i);
         
         var c = Math.floor(Math.random()*chars.length);
-        pass += chars.charAt(i);
+        password += chars.charAt(i);
         
     }
   
