@@ -25,4 +25,8 @@ function myFunction(){
       myform.passbox.value = randomPassword(myform.length.value);
   }
 
-document.getElementById("result").innerHTML = password.join("");
+document.getElementById("result").innerHTML = pass;
+ 
+    function pass(){
+        document.getElementById("result").innerHtml = pass();
+    }
