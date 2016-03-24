@@ -22,9 +22,11 @@ function randomPassword(length){
   }
     
 function myFunction(){
-    document.getElementById("result").innerHTML= "";
+    document.getElementById("result").innerHTML= password;
 }
-document.getElementById("result").innerHTML = password;
+
+
+document.getElementById("result").innerHTML = myfunction;
 
  
    
