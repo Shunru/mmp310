@@ -8,7 +8,7 @@ function randomPassword(length){
         chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890{};&*%#$@!/?<>'";
     }
     
-    pass ="";
+   var password =[];
     for (var i =0; i <length; i++){
         i = Math.floor(Math.random()*chars.length);
         pass += chars.charAt(i);
@@ -21,7 +21,7 @@ function randomPassword(length){
       myform.passbox.value = randomPassword(myform.length.value);
   }
     
-document.getElementById("result").innerHTML = pass.join("");
+document.getElementById("result").innerHTML = password();
 
  
    
