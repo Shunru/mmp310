@@ -1,11 +1,11 @@
 
 function makePassword(){
     var password = "";
-<<<<<<< HEAD
+
     var chars="abcdefghijklmnopqrstuvwxyzABCEEFGHIJKLMNOPFQRSTUVWXYZ0123456789@#$%^&*()+_":";
-=======
+
     var chars="abcdefghijklmnopqrstuvwxyzABCEEFGHIJKLMNOPFQRSTUVWXYZ0123456789!@#$%^&*+)}|:";
->>>>>>> origin/gh-pages
+
     for (var i =0; i <10; i++){
 
 function randomPassword(length){
