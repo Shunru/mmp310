@@ -1,4 +1,5 @@
 function randomPassword(length){
+    var password="";
     var spcval = document.getElementById("specialkey");
     var spc = spcval.value;
     
@@ -8,9 +9,9 @@ function randomPassword(length){
         chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890{};&*%#$@!/?<>'";
     }
     
-   var password ="";
+   
     for (var i =0; i <length; i++){
-        i = Math.floor(Math.random()*chars.length);
+        var c = Math.floor(Math.random()*chars.length);
         pass += chars.charAt(i);
         console.log(i);
     }
@@ -26,7 +27,7 @@ function myFunction(){
 }
 
 
-document.getElementById("result").innerHTML = myfunction;
+document.getElementById("result").innerHTML = password;
 
  
    
