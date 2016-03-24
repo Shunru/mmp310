@@ -1,6 +1,6 @@
 function makePassword(){
     var password = "";
-    var chars="abcdefghijklmnopqrstuvwxyzABCEEFGHIJKLMNOPFQRSTUVWXYZ0123456789";
+    var chars="abcdefghijklmnopqrstuvwxyzABCEEFGHIJKLMNOPFQRSTUVWXYZ0123456789@#$%^&*()+_":";
     for (var i =0; i <10; i++){
         console.log(i);
         
