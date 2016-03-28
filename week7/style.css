@@ -1,0 +1,17 @@
+body{
+    text-align:center;
+    background-color:lavender;
+    font-family:monospace;
+    font-size:18px;
+}
+
+#container{
+    background-color:thistle;
+    width:600px;
+    margin:0 auto;
+    height:600px;
+}
+#h1{
+    text-align:center;
+    color:#000;
+}
